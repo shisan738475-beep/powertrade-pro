@@ -1,0 +1,18 @@
+测试环境：php7.0+mysql8.0+redis
+
+将目录中的index.php改为自己域名
+
+修改数据库配置文件\config\database.php
+
+redis配置\config\redis.php
+
+后台/xiaokeai    用户：admin    密码：
+
+区块链CAGI虚拟资产投资分红理财源码
+
+
+虚拟币投资理财分红源码，购买币种套餐进行投资理财。支持静态分红、二级分销(销售奖）、分红奖(团队奖)、管理奖、辅导奖。支持币种之间进行比例兑换，支持会员之间进行转账。
+测试环境：php7.0+mysql8.0+redis
+
+
+

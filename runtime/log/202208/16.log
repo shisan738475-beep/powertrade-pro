@@ -1,0 +1,33 @@
+---------------------------------------------------------------
+[2022-08-16T11:23:17+08:00] 127.0.0.1 POST 127.0.0.1/public/index.php/admin/login/login
+[运行时间：0.759628s] [吞吐率：1.32req/s] [内存消耗：3,554.49kb] [文件加载：156]
+[ info ] [ LANG ] D:\ruanjian\phpstudy_pro\WWW\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'BJYSESSION=57nagroa39ulpgmft9h301rp12; Hm_lvt_f6f37dc3416ca514857b78d0b158037e=1653890538; wp-settings-1=editor%3Dtinymce%26ampampamplibraryContent%3Dbrowse%26ampmfold%3Do%26amplibraryContent%3Dbrowse%26libraryContent%3Dbrowse; wp-settings-time-1=1654304052; _ga=GA1.1.226474433.1655178614; _ga_RZGZ91E4RP=GS1.1.1655178613.1.1.1655178706.0; Let_AdminUsername=admin; Let_AdminPassword=e10adc3949ba59abbe56e057f20f883e; Hm_lvt_d97abf6d61c21d773f97835defbdef4e=1655531370; Let_IndexUsername=123456; Let_IndexPassword=e10adc3949ba59abbe56e057f20f883e; bgstyle=off; _ga_RTG090QY3Q=GS1.1.1657370755.1.1.1657371484.0; SECKEY_ABVK=2/WuSXKBnWJq1XjIMX2nTMYf2BlkEgsAeV1U9x0/ysI%3D; BMAP_SECKEY=2_WuSXKBnWJq1XjIMX2nTDJr424Gajg6UQGz1jv_nE0MRkOwBgxiJSqBQgOACJch9DALY-vZlKCTBYQJXGGkghr5fYU4WrYjrrehNKzsXpwPNBlYaj-TeZ1L3z0ZEA92lgB9r4eSbkywimrIIplY6hjsDc3Ux2slFb2BYiGxvz1o9CMGIgtzX738Z5eF56Aw; PHPSESSID=e4n4vd1v6fc716fjdvidemqrv4; u=18888888888; p=655742eea5cce8741341ad4c9a80050e; invitor=10028',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/xiaokeai/',
+  'sec-fetch-dest' => 'empty',
+  'sec-fetch-mode' => 'cors',
+  'sec-fetch-site' => 'same-origin',
+  'origin' => 'http://127.0.0.1',
+  'sec-ch-ua-platform' => '"Windows"',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36',
+  'sec-ch-ua-mobile' => '?0',
+  'content-type' => 'application/json;charset=UTF-8',
+  'accept' => 'application/json, text/plain, */*',
+  'sec-ch-ua' => '"Chromium";v="21", " Not;A Brand";v="99"',
+  'content-length' => '37',
+  'connection' => 'keep-alive',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  'name' => 'admin',
+  'password' => 'an4.net',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001541s ] mysql:host=127.0.0.1;dbname=www.jocat.cn;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `qk_admin` [ RunTime:0.003256s ]
+[ sql ] [ SQL ] SELECT * FROM `qk_admin` WHERE  `account` = 'admin'  AND `is_del` = 0 LIMIT 1 [ RunTime:0.000401s ]
